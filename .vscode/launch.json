@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Python: Flask",
+          "type": "python",
+          "request": "launch",
+          "module": "flask",
+          "env": {
+              "FLASK_APP": "/home/oscar/Git/ajude-um-junior/help-a-junior-email-service/api/run.py",
+              "FLASK_ENV": "development",
+              "FLASK_DEBUG": "0",
+              "FLASK_RUN_PORT": "5001"
+          },
+          "args": [
+              "run",
+              "--no-debugger"
+          ],
+          "jinja": true
+      }
+  ]
+}
