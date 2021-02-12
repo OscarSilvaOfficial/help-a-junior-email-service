@@ -1,3 +1,10 @@
 
 
-GET http://127.0.0.1:5001/send_mail HTTP/1.1
+POST http://127.0.0.1:5001/send_mail HTTP/1.1
+content-type: application/json
+
+{
+    "destination": "oscarkaka222@gmail.com",
+    "content": "Seu marido precisa de CAFFEEEEEe",
+    "subject": "ALERTA"
+}
